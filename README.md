@@ -4,9 +4,7 @@
 
 ## Introduction
 
-AMLB (Advanced Machine Learning Builder) is an intuitive Python application that empowers users to build, train, and visualize machine learning models through a graphical interface. Built to bridge the gap between data science expertise and end-user accessibility, AMLB provides a robust environment for data preparation, feature engineering, model selection,
-
-and performance evaluation, making it an essential tool for both beginner and experienced data enthusiasts.
+AMLB (Advanced Machine Learning Builder) is an intuitive Python application that empowers users to build, train, and visualize machine learning models through a graphical interface. Built to bridge the gap between data science expertise and end-user accessibility, AMLB provides a robust environment for data preparation, feature engineering, model selection,and performance evaluation, making it an essential tool for both beginner and experienced data enthusiasts.
 
 ## Project Images
 
@@ -37,10 +35,11 @@ The AMLB application is modularized to enhance scalability and maintainability:
 - **Graphical User Interface**:
   - `gui/`: CustomTkinter-based GUI for interactive model selection, training, and performance analysis.
 
+This structure supports a clear separation of concerns, allowing seamless updates or module enhancements.
+
 # Datasets
 This project includes a `/datasets` folder containing six datasets of varying sizes, allowing comprehensive testing of the app's capabilities. You can use these datasets to evaluate performance, scalability, and processing speed.
 
-This structure supports a clear separation of concerns, allowing seamless updates or module enhancements.
 
 ## Key Features
 1. **Interactive Model Training**:
