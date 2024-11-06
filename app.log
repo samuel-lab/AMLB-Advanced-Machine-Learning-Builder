@@ -1,8 +1,1 @@
-2024-11-06 17:45:57,337:ERROR:Error during training
-Traceback (most recent call last):
-  File "/Users/samuellabant/Desktop/AMLB/ml/model_training.py", line 77, in train_model_thread
-    model.partial_fit(X_batch, y_batch, classes=np.unique(y_processed) if app_instance.problem_type == 'classification' else None)
-  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/base.py", line 1473, in wrapper
-    return fit_method(estimator, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: BaseSGDRegressor.partial_fit() got an unexpected keyword argument 'classes'
+
