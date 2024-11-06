@@ -1,0 +1,11 @@
+customtkinter
+dask
+joblib
+matplotlib
+numpy
+pandas
+plotly
+scipy
+seaborn
+shap
+scikit-learn
